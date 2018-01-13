@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.em4rtinez.imagepicker.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_centerInParent="true"
+        android:src="@color/colorPrimaryDark"
+        android:layout_width="180dp"
+        android:layout_height="180dp" />
+
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btnPickFrom"
+        android:layout_alignParentBottom="true"
+        android:text="PICK FROM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
