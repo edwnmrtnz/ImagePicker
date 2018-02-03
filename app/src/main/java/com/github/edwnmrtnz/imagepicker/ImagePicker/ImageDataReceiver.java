@@ -20,7 +20,7 @@
 * */
 
 
-package com.github.em4rtinez.imagepicker.ImagePicker;
+package com.github.edwnmrtnz.imagepicker.ImagePicker;
 
 import java.io.File;
 

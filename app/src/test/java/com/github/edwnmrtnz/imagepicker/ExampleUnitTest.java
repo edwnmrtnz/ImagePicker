@@ -1,4 +1,4 @@
-package com.github.em4rtinez.imagepicker;
+package com.github.edwnmrtnz.imagepicker;
 
 import org.junit.Test;
 

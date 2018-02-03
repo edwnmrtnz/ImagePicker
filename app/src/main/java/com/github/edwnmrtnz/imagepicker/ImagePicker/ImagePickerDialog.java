@@ -22,7 +22,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * */
 
-package com.github.em4rtinez.imagepicker.ImagePicker;
+package com.github.edwnmrtnz.imagepicker.ImagePicker;
 
 import android.Manifest;
 import android.app.Activity;
@@ -50,8 +50,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.github.em4rtinez.imagepicker.BuildConfig;
-import com.github.em4rtinez.imagepicker.R;
+import com.github.edwnmrtnz.imagepicker.BuildConfig;
+import com.github.edwnmrtnz.imagepicker.R;
 
 import java.io.File;
 import java.io.IOException;
