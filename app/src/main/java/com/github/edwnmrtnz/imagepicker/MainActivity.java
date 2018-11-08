@@ -1,4 +1,4 @@
-package com.github.em4rtinez.imagepicker;
+package com.github.edwnmrtnz.imagepicker;
 
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -7,8 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.github.em4rtinez.imagepicker.ImagePicker.ImageDataReceiver;
-import com.github.em4rtinez.imagepicker.ImagePicker.ImagePicker;
+
+import com.edwnmrtnz.imagepicker.ImageDataReceiver;
+import com.edwnmrtnz.imagepicker.ImagePicker;
 
 import java.io.File;
 

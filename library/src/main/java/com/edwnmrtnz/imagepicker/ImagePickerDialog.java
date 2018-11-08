@@ -22,7 +22,7 @@
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 * */
 
-package com.github.em4rtinez.imagepicker.ImagePicker;
+package com.edwnmrtnz.imagepicker;
 
 import android.Manifest;
 import android.app.Activity;
@@ -49,9 +49,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.github.em4rtinez.imagepicker.BuildConfig;
-import com.github.em4rtinez.imagepicker.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -264,18 +261,14 @@ public class ImagePickerDialog extends DialogFragment implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.btnGallery:{
-                launchGallery();
-                break;
-            }
-            case R.id.btnCamera:{
-                try {
-                    launchCamera();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-                break;
+        int i = v.getId();
+        if (i == R.id.btnGallery) {
+            launchGallery();
+        } else if (i == R.id.btnCamera) {
+            try {
+                launchCamera();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
         }
     }

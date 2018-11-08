@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.em4rtinez.imagepicker">
+    package="com.github.edwnmrtnz.imagepicker">
 
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -25,7 +25,7 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.github.edwnmrtnz.imagepicker.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
