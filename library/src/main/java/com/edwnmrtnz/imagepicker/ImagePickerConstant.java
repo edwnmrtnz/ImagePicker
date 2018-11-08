@@ -1,4 +1,4 @@
-package com.github.edwnmrtnz.imagepicker.ImagePicker;
+package com.edwnmrtnz.imagepicker;
 
 /**
  * Created by edwin on 12/01/2018.

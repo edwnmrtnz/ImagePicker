@@ -20,7 +20,7 @@
 * */
 
 
-package com.github.edwnmrtnz.imagepicker.ImagePicker;
+package com.edwnmrtnz.imagepicker;
 
 import android.content.Context;
 import android.support.v4.app.FragmentActivity;

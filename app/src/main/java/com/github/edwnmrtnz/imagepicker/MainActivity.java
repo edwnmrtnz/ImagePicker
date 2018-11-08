@@ -7,8 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.github.edwnmrtnz.imagepicker.ImagePicker.ImageDataReceiver;
-import com.github.edwnmrtnz.imagepicker.ImagePicker.ImagePicker;
+
+import com.edwnmrtnz.imagepicker.ImageDataReceiver;
+import com.edwnmrtnz.imagepicker.ImagePicker;
 
 import java.io.File;
 
