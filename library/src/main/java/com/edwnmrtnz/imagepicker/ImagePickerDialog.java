@@ -159,8 +159,6 @@ public class ImagePickerDialog extends DialogFragment implements View.OnClickLis
         final AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
         dialog.setView(view);
 
-        setRetainInstance(true);
-
         //Bind Views
         parentLayout    = view.findViewById(R.id.parentLayout);
         tvTitle         = view.findViewById(R.id.tvTitle);
